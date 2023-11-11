@@ -27,3 +27,9 @@ except KeyError:
 
 #display the table on the page
 streamlit.dataframe(fruits_to_show)
+
+streamlit.header("Fruityvice Fruit Advice!")
+
+fruityvice_value = "kiwi"
+fruityvice_response = requests.get(f"https://fruityvice.com/api/fruit/{fruityvice_value}")
+fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
