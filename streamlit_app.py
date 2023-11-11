@@ -44,4 +44,4 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
-streamlit.text_input(label, "What fruits mate?", "Strawberry")
+streamlit.text_input("What fruits mate?", "Strawberry")
