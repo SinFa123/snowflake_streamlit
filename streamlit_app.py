@@ -29,7 +29,3 @@ except KeyError:
 streamlit.dataframe(fruits_to_show)
 
 streamlit.header("Fruityvice Fruit Advice!")
-
-
-
-streamlist.dataframe(fruits_to_show)
