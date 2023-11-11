@@ -27,5 +27,3 @@ except KeyError:
 
 #display the table on the page
 streamlit.dataframe(fruits_to_show)
-
-streamlit.header("Fruityvice Fruit Advice!")
